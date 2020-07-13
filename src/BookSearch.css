@@ -1,0 +1,29 @@
+.title {
+  font-size: 230%;
+  font-weight: bolder;
+  color: black;
+}
+.search-container {
+  margin-top: 40px;
+  text-align: center;
+}
+.search-term {
+  width: 20%;
+  height: 10%;
+  padding: 4px;
+}
+.search-btn {
+  padding: 4px;
+  margin-left: 5px;
+  background-color: #34b7eb;
+}
+.search-btn :hover {
+  transform: scale(1.25);
+  opacity: 0.9;
+}
+
+.cards {
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
+}
